@@ -1,0 +1,43 @@
+{
+  "name": "flappy-bird",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "webpack",
+    "start": "webpack --watch",
+    "letgo": "webpack serve --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@types/lodash": "^4.14.182",
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "moment": "^2.29.3",
+    "raw-loader": "^4.0.2",
+    "sass-loader": "^13.0.0",
+    "scss-loader": "^0.0.1",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.7.2",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.2"
+  },
+  "dependencies": {
+    "phaser": "^3.55.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
